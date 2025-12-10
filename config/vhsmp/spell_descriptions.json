@@ -1,0 +1,67 @@
+{
+    "spellDescriptions": {
+        "vhsmp:heal": {
+            "name": "Heal",
+            "description": "Heals the player for 1 hp per companion level.",
+            "icon": "the_vault:gui/abilities/heal",
+            "atlasType": "ABILITY",
+            "colour": 16408144
+        },
+        "vhsmp:mana_restore": {
+            "name": "Mana Restore",
+            "description": "Restores 10 mana for the player per companion level.",
+            "icon": "vhsmp:gui/minionspells/mana",
+            "atlasType": "VHSMP",
+            "colour": 5266426
+        },
+        "vhsmp:absorption_heart": {
+            "name": "Absorption Heart",
+            "description": "Gives one yellow heart per companion level to the player.",
+            "icon": "vhsmp:gui/minionspells/absorp",
+            "atlasType": "VHSMP",
+            "colour": 16238649
+        },
+        "vhsmp:speed": {
+            "name": "Speed",
+            "description": "Increases movement speed for 2 seconds per companion level to the player.",
+            "icon": "vhsmp:gui/minionspells/speed",
+            "atlasType": "VHSMP",
+            "colour": 8864011
+        },
+        "vhsmp:rejuvenation": {
+            "name": "Rejuvenation",
+            "description": "Casts a rejuvenation totem where the player stands.",
+            "icon": "the_vault:gui/abilities/totem",
+            "atlasType": "ABILITY",
+            "colour": 3732792
+        },
+        "vhsmp:spirit": {
+            "name": "Spirit",
+            "description": "Casts a spirit totem where the player stands.",
+            "icon": "the_vault:gui/abilities/totem_mana_regen",
+            "atlasType": "ABILITY",
+            "colour": 3732978
+        },
+        "vhsmp:wrath": {
+            "name": "Wrath",
+            "description": "Casts a wrath totem where the player stands.",
+            "icon": "the_vault:gui/abilities/totem_player_damage",
+            "atlasType": "ABILITY",
+            "colour": 7279528
+        },
+        "vhsmp:mana_barrier": {
+            "name": "Barrier",
+            "description": "Casts a mana barrier around the player, the duration is based on companion level.",
+            "icon": "the_vault:gui/abilities/mana_barrier",
+            "atlasType": "ABILITY",
+            "colour": 1277608
+        },
+        "vhsmp:ultimate_implode": {
+            "name": "The Vault Breaker",
+            "description": "Removes all spawners in the room the player is in!",
+            "icon": "vhsmp:gui/minionspells/ultimate_implode",
+            "atlasType": "VHSMP",
+            "colour": 15212230
+        }
+    }
+}

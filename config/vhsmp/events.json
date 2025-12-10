@@ -1,0 +1,511 @@
+{
+  "EVENTS": [
+    {
+      "id": "vhsmp:rush",
+      "enabledCrateReward": true,
+      "requiredBingos": 12,
+      "requiredBingoWidth": 5,
+      "requiredBingoHeight": 5,
+      "crateReward": [
+        {
+          "item": "the_vault:inscription",
+          "nbt": "{data:{entries:[{color:15769088,count:1,pool:\"the_vault:vault/rooms/challenge/horderush\"}],model:24,size:10}}"
+        }
+      ],
+      "type": "rush"
+    },
+    {
+      "id": "vhsmp:halloween",
+      "type": "halloween",
+      "spawnInterval": {
+        "min": 4600,
+        "max": 6000,
+        "type": "uniform"
+      },
+      "tasks": [
+        { "VaultGod": "tenos",
+          "tasks": [
+            {
+              "task": {
+                "type": "loot_chest",
+                "filter": "@the_vault:wooden",
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 60,
+                    "max": 120
+                  },
+                  "variables": {
+                    "scaler": 3.0
+                  }
+                },
+                "renderer": {
+                  "type": "halloween",
+                  "name": "Loot Wooden Chests"
+                }
+              },
+              "weight": 1
+            },
+            {
+              "task": {
+                "type": "loot_chest",
+                "filter": "@the_vault:ornate",
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 12,
+                    "max": 30
+                  },
+                  "variables": {
+                    "scaler": 3.0
+                  }
+                },
+                "renderer": {
+                  "type": "halloween",
+                  "name": "Loot Ornate Chests"
+                }
+              },
+              "weight": 1
+            },
+            {
+              "task": {
+                "type": "loot_chest",
+                "filter": "@the_vault:living",
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 12,
+                    "max": 30
+                  },
+                  "variables": {
+                    "scaler": 3.0
+                  }
+                },
+                "renderer": {
+                  "type": "halloween",
+                  "name": "Loot Living Chests"
+                }
+              },
+              "weight": 1
+            },
+            {
+              "task": {
+                "type": "loot_chest",
+                "filter": "@the_vault:gilded",
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 12,
+                    "max": 30
+                  },
+                  "variables": {
+                    "scaler": 3.0
+                  }
+                },
+                "renderer": {
+                  "type": "halloween",
+                  "name": "Loot Gilded Chests"
+                }
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "VaultGod": "idona",
+          "tasks": [
+            {
+              "task": {
+                "type": "kill_entity",
+                "filter": "@the_vault:horde",
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 160,
+                    "max": 320
+                  },
+                  "variables": {
+                    "scaler": 3.0
+                  }
+                },
+                "renderer": {
+                  "type": "halloween",
+                  "name": "Kill Hordes"
+                }
+              },
+              "weight": 1
+            },
+            {
+              "task": {
+                "type": "kill_entity",
+                "filter": "@the_vault:assassin",
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 20,
+                    "max": 60
+                  },
+                  "variables": {
+                    "scaler": 3.0
+                  }
+                },
+                "renderer": {
+                  "type": "halloween",
+                  "name": "Kill Assassins"
+                }
+              },
+              "weight": 1
+            },
+            {
+              "task": {
+                "type": "kill_entity",
+                "filter": "@the_vault:tank",
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 6,
+                    "max": 10
+                  },
+                  "variables": {
+                    "scaler": 3.0
+                  }
+                },
+                "renderer": {
+                  "type": "halloween",
+                  "name": "Kill Tanks"
+                }
+              },
+              "weight": 1
+            },
+            {
+              "task": {
+                "type": "kill_entity",
+                "filter": "@the_vault:dungeon",
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 3,
+                    "max": 6
+                  },
+                  "variables": {
+                    "scaler": 3.0
+                  }
+                },
+                "renderer": {
+                  "type": "halloween",
+                  "name": "Kill Dungeon Mobs"
+                }
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "VaultGod": "velara",
+          "tasks": [
+            {
+              "task": {
+                "type": "deal_no_damage",
+                "children": [
+                    {
+                      "type": "loot_chest",
+                      "filter": "@the_vault:living",
+                      "counter": {
+                        "type": "target",
+                        "target": {
+                          "type": "uniform",
+                          "min": 9,
+                          "max": 20
+                        },
+                        "variables": {
+                        "scaler": 3.0
+                        }
+                      },
+                      "renderer": {
+                      "type": "halloween",
+                      "name": "Peacefully Loot Living Chests"
+                      }
+                    }
+                  ]
+              },
+              "weight": 50.0
+            },
+            {
+              "task": {
+                "type": "deal_no_damage",
+              "children": [
+                  {
+                    "type": "loot_chest",
+                    "filter": "@the_vault:ornate",
+                    "counter": {
+                      "type": "target",
+                      "target": {
+                        "type": "uniform",
+                        "min": 9,
+                        "max": 20
+                      },
+                      "variables": {
+                      "scaler": 3.0
+                      }
+                    },
+                    "renderer": {
+                    "type": "halloween",
+                    "name": "Peacefully Loot Ornate Chests"
+                    }
+                  }
+                ]
+              },
+              "weight": 50.0
+            },
+            {
+              "task": {
+                "type": "deal_no_damage",
+              "children": [
+                  {
+                    "type": "loot_chest",
+                    "filter": "@the_vault:gilded",
+                    "counter": {
+                      "type": "target",
+                      "target": {
+                        "type": "uniform",
+                        "min": 9,
+                        "max": 20
+                      },
+                      "variables": {
+                      "scaler": 3.0
+                      }
+                    },
+                    "renderer": {
+                    "type": "halloween",
+                    "name": "Peacefully Loot Gilded Chests"
+                    }
+                  }
+                ]
+              },
+              "weight": 50.0
+            },
+            {
+            "task": {
+              "type": "deal_no_damage",
+            "children": [
+                {
+                  "type": "loot_chest",
+                  "filter": "@the_vault:wooden",
+                  "counter": {
+                    "type": "target",
+                    "target": {
+                      "type": "uniform",
+                      "min": 30,
+                      "max": 60
+                    },
+                    "variables": {
+                    "scaler": 3.0
+                    }
+                  },
+                  "renderer": {
+                  "type": "halloween",
+                  "name": "Peacefully Loot Wooden Chests"
+                  }
+                }
+              ]
+            },
+              "weight": 50.0
+            }
+          ]
+        },
+        {
+          "VaultGod": "wendarr",
+          "tasks": [
+            {
+              "task": {
+                "type": "loot_chest",
+                "filter": "@the_vault:wooden",
+                "counter": {
+                  "type": "sliding_timed_target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 10,
+                    "max": 14
+                  },
+                  "window": {
+                    "type": "constant",
+                    "count": 200
+                  },
+                  "variables": {
+                      "scaler": 3.0
+                  }
+                },
+                "renderer": {
+                    "type": "halloween",
+                    "name": "Loot Wooden Chests in 10 seconds"
+                }
+              },
+              "weight": 100.0
+            },
+            {
+              "task": {
+                "type": "loot_chest",
+              "filter": "@the_vault:gilded",
+              "counter": {
+                "type": "sliding_timed_target",
+                "target": {
+                  "type": "uniform",
+                  "min": 6,
+                  "max": 10
+                },
+                "window": {
+                  "type": "constant",
+                  "count": 200
+                },
+                "variables": {
+                    "scaler": 3.0
+                }
+              },
+              "renderer": {
+                  "type": "halloween",
+                  "name": "Loot Gilded Chests in 10 seconds"
+              }
+              },
+              "weight": 100.0
+            },
+            {
+              "task": {
+                "type": "loot_chest",
+                "filter": "@the_vault:ornate",
+                "counter": {
+                  "type": "sliding_timed_target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 6,
+                    "max": 10
+                  },
+                  "window": {
+                    "type": "constant",
+                    "count": 200
+                  },
+                  "variables": {
+                      "scaler": 3.0
+                  }
+                },
+                "renderer": {
+                    "type": "halloween",
+                    "name": "Loot Ornate Chests in 10 seconds"
+                }
+              },
+              "weight": 100.0
+            },
+            {
+              "task": {
+                "type": "loot_chest",
+              "filter": "@the_vault:living",
+              "counter": {
+                "type": "sliding_timed_target",
+                "target": {
+                  "type": "uniform",
+                  "min": 6,
+                  "max": 10
+                },
+                "window": {
+                  "type": "constant",
+                  "count": 200
+                },
+                "variables": {
+                    "scaler": 3.0
+                }
+              },
+              "renderer": {
+                  "type": "halloween",
+                  "name": "Loot Living Chests in 10 seconds"
+              }
+              },
+              "weight": 100.0
+            }
+          ]
+        }
+      ],
+      "objectiveRewards": [
+        {
+          "weight": 3.0,
+          "value": {
+            "id": "vhsmp:joshs_cursed_maths_book",
+            "count": 1
+          }
+        },
+        {
+          "weight": 6.0,
+          "value": {
+            "id": "vhsmp:tongue_of_a_troll",
+            "count": 1
+          }
+        },
+        {
+          "weight": 3.0,
+          "value": {
+            "id": "vhsmp:tear_soaked_cotton_balls",
+            "count": 1
+          }
+        }
+      ],
+      "initialDelayTicks": 2400,
+      "minimumSpawnIntervalTicks": 5000,
+      "questionDurationTicks": 440,
+      "trickDurationTicks": 6000,
+      "despawnTicks": 200,
+      "tradeItems": [
+        {
+          "id": "vhsmp:joshs_cursed_maths_book",
+          "count": 1
+        },
+        {
+          "id": "vhsmp:haunted_jar",
+          "count": 5
+        }
+      ],
+      "tradeOutcomes": [
+        {
+          "weight": 1.0,
+          "value": {
+            "id": "vhsmp:joshs_cursed_maths_book",
+            "count": 1
+          }
+        },
+        {
+          "weight": 1.0,
+          "value": {
+            "id": "vhsmp:tongue_of_a_troll",
+            "count": 1
+          }
+        },
+        {
+          "weight": 1.0,
+          "value": {
+            "id": "vhsmp:tear_soaked_cotton_balls",
+            "count": 1
+          }
+        },
+        {
+          "weight": 1.0,
+          "value": {
+            "id": "vhsmp:dylans_dandruff",
+            "count": 1
+          }
+        },
+        {
+          "weight": 1.0,
+          "value": {
+            "id": "vhsmp:decaf_pixie_dust",
+            "count": 1
+          }
+        }
+      ]
+    }
+  ]
+}

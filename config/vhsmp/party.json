@@ -1,0 +1,14 @@
+{
+    "partyLeaderLevel": 10,
+    "initialPartySlots": 1,
+    "additionalPartySlotsPerLevel": [
+        {
+            "level": 1,
+            "slots": 0
+        },
+        {
+            "level": 11,
+            "slots": 1
+        }
+    ]
+}

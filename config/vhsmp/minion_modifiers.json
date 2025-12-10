@@ -1,0 +1,496 @@
+{
+    "rollCount": {
+        "0": {
+            "type": "constant",
+            "count": 3
+        },
+        "30": {
+            "type": "constant",
+            "count": 4
+        }
+    },
+    "levelPools": {
+        "0": [
+            {
+                "value": {
+                    "type": "modifier",
+                    "poolId": "vhsmp:common"
+                },
+                "weight": 80.0
+            },
+            {
+                "value": {
+                    "type": "spell",
+                    "poolId": "vhsmp:default_spells"
+                },
+                "weight": 40.0
+            },
+            {
+                "value": {
+                    "type": "modifier",
+                    "poolId": "vhsmp:rare"
+                },
+                "weight": 15.0
+            },
+            {
+                "value": {
+                    "type": "modifier",
+                    "poolId": "vhsmp:epic"
+                },
+                "weight": 5.0
+            },
+            {
+                "value": {
+                    "type": "modifier",
+                    "poolId": "vhsmp:legendary"
+                },
+                "weight": 0.0
+            }
+        ],
+        "10": [
+            {
+                "value": {
+                    "type": "modifier",
+                    "poolId": "vhsmp:legendary"
+                },
+                "weight": 1.0
+            }
+        ],
+        "11": [
+            {
+                "value": {
+                    "type": "modifier",
+                    "poolId": "vhsmp:legendary"
+                },
+                "weight": 1.0
+            },
+            {
+                "value": {
+                    "type": "spell",
+                    "poolId": "vhsmp:default_spells"
+                },
+                "weight": 12.0
+            }
+        ]
+    },
+    "modifierPools": {
+        "vhsmp:common": [
+            {
+                "value": {
+                    "modifierId": "the_vault:wooden_cascade",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 10.0
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:ornate_cascade",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 7.0
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:living_cascade",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 7.0
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:gilded_cascade",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 7.0
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:coin_cascade",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 8.0
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:extended",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 10.0
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:plentiful",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 10.0
+            }
+        ],
+        "vhsmp:rare": [
+            {
+                "value": {
+                    "modifierId": "the_vault:xp_gain",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 10.0
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:buffed",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 10.0
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:wooden_bonus",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 4.0
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:ornate",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 2.0
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:living",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 2.0
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:gilded",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 2.0
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:coin_pile",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 4.0
+            }
+        ],
+        "vhsmp:epic": [
+            {
+                "value": {
+                    "modifierId": "the_vault:phoenix",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 10.0
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:pandoras_box",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 6.0
+            }
+        ],
+        "vhsmp:default_modifiers": [
+            {
+                "value": {
+                    "modifierId": "the_vault:gilded",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 10.0
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:ornate",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 10.0
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:living",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 10.0
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:wooden",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 10.0
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:wooden_cascade",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 10.0
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:ornate_cascade",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 10.0
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:living_cascade",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 10.0
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:gilded_cascade",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 10.0
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:extended",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 10.0
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:phoenix",
+                    "challengeStackChance": 1,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": false
+                },
+                "weight": 5.0
+            }
+        ],
+        "vhsmp:legendary": [
+            {
+                "value": {
+                    "modifierId": "the_vault:daycare",
+                    "challengeStackChance": 0,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": true
+                },
+                "weight": 1
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:kill_nuke",
+                    "challengeStackChance": 0,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": true
+                },
+                "weight": 1
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:champion_domain",
+                    "challengeStackChance": 0,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": true
+                },
+                "weight": 1
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:soul_fest",
+                    "challengeStackChance": 0,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": true
+                },
+                "weight": 1
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:overpower",
+                    "challengeStackChance": 0,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": true
+                },
+                "weight": 1
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:loot_goblin",
+                    "challengeStackChance": 0,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": true
+                },
+                "weight": 1
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:door_hunter",
+                    "challengeStackChance": 0,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": true
+                },
+                "weight": 1
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:ultimate_regeneration",
+                    "challengeStackChance": 0,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": true
+                },
+                "weight": 1
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:bronze_nuke",
+                    "challengeStackChance": 0,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": true
+                },
+                "weight": 1
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:rock_solid",
+                    "challengeStackChance": 0,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": true
+                },
+                "weight": 1
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:pylon_hunter",
+                    "challengeStackChance": 0,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": true
+                },
+                "weight": 1
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:warrior",
+                    "challengeStackChance": 0,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": true
+                },
+                "weight": 1
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:lunar",
+                    "challengeStackChance": 0,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": true
+                },
+                "weight": 1
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:kill_hunter",
+                    "challengeStackChance": 0,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": true
+                },
+                "weight": 1
+            },
+            {
+                "value": {
+                    "modifierId": "the_vault:glued_mobs",
+                    "challengeStackChance": 0,
+                    "challengeStackId": "the_vault:companion_challenge",
+                    "isLegendary": true
+                },
+                "weight": 1
+            }
+        ]
+    },
+    "spellsPools": {
+        "vhsmp:default_spells": [
+            {
+                "value": "vhsmp:absorption_heart",
+                "weight": 1.0
+            },
+            {
+                "value": "vhsmp:mana_restore",
+                "weight": 1.0
+            },
+            {
+                "value": "vhsmp:heal",
+                "weight": 1.0
+            },
+            {
+                "value": "vhsmp:speed",
+                "weight": 1.0
+            },
+            {
+                "value": "vhsmp:mana_barrier",
+                "weight": 1.0
+            },
+            {
+                "value": "vhsmp:wrath",
+                "weight": 1.0
+            },
+            {
+                "value": "vhsmp:spirit",
+                "weight": 1.0
+            },
+            {
+                "value": "vhsmp:rejuvenation",
+                "weight": 1.0
+            }
+        ]
+    },
+    "rarities": {
+        "the_vault:companion_challenge": "OMEGA"
+    }
+}

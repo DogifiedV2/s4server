@@ -1,0 +1,344 @@
+{
+    "badges": [
+        {
+            "id": "vhsmp:party_leader",
+            "display": {
+                "displayName": "Party Leader",
+                "description": "Party Leader of Season 1",
+                "textColour": 16440994,
+                "texture": "vhsmp:gui/badges/party_leader",
+                "type": "texture"
+            },
+            "linkedSets": [
+                "companion_leader_s1"
+            ]
+        },
+        {
+            "id": "vhsmp:hero_of_the_stream",
+            "display": {
+                "displayName": "Current Hero of the Stream",
+                "description": "The current Hero of the Stream!",
+                "textColour": 16563103,
+                "texture": "vhsmp:gui/badges/hero",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:was_hero_of_the_stream",
+            "display": {
+                "displayName": "Hero of the Stream",
+                "description": "Has been a Hero of the Stream",
+                "textColour": 16563103,
+                "texture": "vhsmp:gui/badges/hero",
+                "type": "texture"
+            },
+            "isHidden": true
+        },
+        {
+            "id": "vhsmp:the_monolith",
+            "display": {
+                "displayName": "The Monolith",
+                "description": "Highest single bonus stack during Season 1",
+                "textColour": 4794973,
+                "texture": "vhsmp:gui/badges/the_monolith",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:crown",
+            "display": {
+                "displayName": "The Crown",
+                "description": "Highest level companion during Season 1",
+                "textColour": 16362753,
+                "texture": "vhsmp:gui/badges/the_crown",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:hoarder",
+            "display": {
+                "displayName": "Hoarder",
+                "textColour": 16362753,
+                "description": "Highest single passive stack during Season 1",
+                "texture": "vhsmp:gui/badges/the_hoarder",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:collector",
+            "display": {
+                "displayName": "The Collector",
+                "textColour": 16362753,
+                "description": "Most total Legendary stacks during Season 1",
+                "texture": "vhsmp:gui/badges/collector",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:peak_ascension",
+            "display": {
+                "displayName": "Peak Ascension",
+                "textColour": 16362753,
+                "description": "Highest single legendary stack during Season 1",
+                "texture": "vhsmp:gui/badges/peak_ascension",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:legend",
+            "display": {
+                "displayName": "Legend",
+                "textColour": 16362753,
+                "description": "Top 15 companions during Season 1",
+                "texture": "vhsmp:gui/badges/legend",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:guardian",
+            "display": {
+                "displayName": "The Guardian",
+                "textColour": 16362753,
+                "description": "Highest amount of a single Phoenix Stack during Season 1",
+                "texture": "vhsmp:gui/badges/guardian",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:vaultbound",
+            "display": {
+                "displayName": "Vaultbound",
+                "textColour": 16362753,
+                "description": "Most Vault Runs in Season 1",
+                "texture": "vhsmp:gui/badges/vaultbound",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:forgotten",
+            "display": {
+                "displayName": "Forgotten",
+                "textColour": 16362753,
+                "description": "Highest Level without a single run in a season 1",
+                "texture": "vhsmp:gui/badges/the_forgotten",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:grim_reaper",
+            "display": {
+                "displayName": "Grim Reaper",
+                "textColour": 16362753,
+                "description": "First death of season 1",
+                "texture": "vhsmp:gui/badges/grim",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:ghosted",
+            "display": {
+                "displayName": "Ghosted",
+                "textColour": 16362753,
+                "description": "Has ghosted in Season 2",
+                "texture": "vhsmp:gui/badges/grim",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:halloween",
+            "display": {
+                "displayName": "Halloween",
+                "textColour": 16362753,
+                "description": "Has purchased all Halloween items",
+                "texture": "vhsmp:gui/badges/halloween2025_badge",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:christmas",
+            "display": {
+                "displayName": "Christmas",
+                "textColour": 16362753,
+                "description": "Has purchased all Christmas items",
+                "texture": "vhsmp:gui/badges/christmas2025",
+                "type": "texture"
+            }
+        },
+
+
+
+        {
+            "id": "vhsmp:the_original",
+            "display": {
+                "displayName": "The Original",
+                "textColour": 16362753,
+                "description": "Companions over level 2 in Season 1",
+                "texture": "vhsmp:gui/badges/the_original",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:wallbreaker",
+            "display": {
+                "displayName": "Wallbreaker",
+                "textColour": 16362753,
+                "description": "Companions over level 10 in Season 1",
+                "texture": "vhsmp:gui/badges/wallbreaker",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:club",
+            "display": {
+                "displayName": "The Club",
+                "textColour": 16362753,
+                "description": "Companions over level 20 in Season 1",
+                "texture": "vhsmp:gui/badges/the_club",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:forty_things",
+            "display": {
+                "displayName": "Forty Things",
+                "textColour": 16362753,
+                "description": "Companions over level 40 in Season 1",
+                "texture": "vhsmp:gui/badges/just_forty",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:exalted",
+            "display": {
+                "displayName": "Exalted",
+                "textColour": 16362753,
+                "description": "Companions over level 50 in Season 1",
+                "texture": "vhsmp:gui/badges/exalted",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:dylan",
+            "display": {
+                "displayName": "Dylan VIP",
+                "textColour": 16362753,
+                "description": "Grants the Dylan VIP set",
+                "texture": "vhsmp:gui/badges/dylan",
+                "type": "texture"
+            },
+            "linkedSets": [
+                "dylan_vip"
+            ]
+        },
+        {
+            "id": "vhsmp:bug",
+            "display": {
+                "displayName": "Bug",
+                "textColour": 16362753,
+                "description": "Their companion was affected by a bug!",
+                "texture": "vhsmp:gui/badges/bug",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:halloween_haunted_2025",
+            "display": {
+                "displayName": "Halloween Haunted 2025",
+                "textColour": 16362753,
+                "description": "Haunted iskall85 during the 2025 Halloween event!",
+                "texture": "vhsmp:gui/badges/haunted",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:pog",
+            "display": {
+                "displayName": "POG",
+                "textColour": 16362753,
+                "description": "Reached 50 Gemstones during the POG Creeper event!",
+                "texture": "vhsmp:gui/badges/pog",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:duck_bike",
+            "display": {
+                "displayName": "Duck's Bike",
+                "textColour": 10736887,
+                "description": "A special drawing for a special Dylan",
+                "texture": "vhsmp:gui/badges/duck_bike",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:tier_vault_champion",
+            "display": {
+                "displayName": "Vault Champion Patreon",
+                "textColour": 16362753,
+                "description": "Supports the Vault Hunters development as a Vault Champion!",
+                "texture": "vhsmp:gui/badges/patreon_champion",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:tier_vault_cheeser",
+            "display": {
+                "displayName": "Vault Cheeser Patreon",
+                "textColour": 16362753,
+                "description": "Supports the Vault Hunters development as a Vault Cheeser!",
+                "texture": "vhsmp:gui/badges/patreon_cheeser",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:tier_vault_dweller",
+            "display": {
+                "displayName": "Vault Dweller Patreon",
+                "textColour": 16362753,
+                "description": "Supports the Vault Hunters development as a Vault Dweller!",
+                "texture": "vhsmp:gui/badges/patreon_dweller",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:tier_vault_goblin",
+            "display": {
+                "displayName": "Vault Goblin Patreon",
+                "textColour": 16362753,
+                "description": "Supports the Vault Hunters development as a Vault Goblin!",
+                "texture": "vhsmp:gui/badges/patreon_goblin",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:stream100",
+            "display": {
+                "displayName": "100th Stream",
+                "textColour": 16362753,
+                "description": "You were present during the 100th iskall85 stream!",
+                "texture": "vhsmp:gui/badges/stream100",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:gemstone_saver",
+            "display": {
+                "displayName": "Gemstone Saver",
+                "textColour": 16362753,
+                "description": "I collected all these gemstones and all I got was this lousy badge!",
+                "texture": "vhsmp:gui/badges/secret_gemstones",
+                "type": "texture"
+            }
+        },
+        {
+            "id": "vhsmp:tier_vault_legend",
+            "display": {
+                "displayName": "Vault Legend",
+                "textColour": 16362753,
+                "description": "Vault Legend!",
+                "texture": "vhsmp:gui/badges/vault_legend",
+                "type": "texture"
+            }
+        }
+    ]
+}

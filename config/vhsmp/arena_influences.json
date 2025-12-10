@@ -1,0 +1,13 @@
+{
+    "arenaInfluences": [
+        {
+            "value": {
+                "id": "vhsmp:increased_damage",
+                "type": "attack_damage_additive_percentile",
+                "amount": 0.2,
+                "name": "Attack Damage"
+            },
+            "weight": 1.0
+        }
+    ]
+}

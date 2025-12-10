@@ -1,0 +1,115 @@
+{
+    "durationTicks": 3000,
+    "pools": {
+        "one": [
+            {
+                "value": {
+                    "config": {
+                        "required": 1,
+                        "amount": {
+                            "min": 1,
+                            "max": 10,
+                            "type": "uniform"
+                        },
+                        "cost": {
+                            "min": 60,
+                            "max": 240,
+                            "type": "uniform"
+                        },
+                        "id": "the_vault:gemstonessmall",
+                        "repeatable": true
+                    },
+                    "type": "gemstone"
+                },
+                "weight": 2.0
+            }
+        ],
+        "two": [
+            {
+                "value": {
+                    "config": {
+                        "required": 1,
+                        "amount": {
+                            "min": 1,
+                            "max": 20,
+                            "type": "uniform"
+                        },
+                        "cost": {
+                            "min": 80,
+                            "max": 320,
+                            "type": "uniform"
+                        },
+                        "id": "the_vault:xp2",
+                        "repeatable": true
+                    },
+                    "type": "xp"
+                },
+                "weight": 2.0
+            }
+        ],
+        "three": [
+            {
+                "value": {
+                    "config": {
+                        "required": 24,
+                        "cost": {
+                            "min": 140,
+                            "max": 360,
+                            "type": "uniform"
+                        },
+                        "id": "the_vault:buster_sword",
+                        "itemId": "the_vault:sword",
+                        "modelId": "the_vault:gear/sword/buster_sword",
+                        "repeatable": true
+                    },
+                    "type": "transmog"
+                },
+                "weight": 2.0
+            },
+            {
+                "value": {
+                    "config": {
+                        "required": 24,
+                        "cost": {
+                            "min": 140,
+                            "max": 360,
+                            "type": "uniform"
+                        },
+                        "id": "the_vault:elephant",
+                        "companionType": "muddy_elephant",
+                        "repeatable": true
+                    },
+                    "type": "companion"
+                },
+                "weight": 2.0
+            }
+        ],
+        "four": [
+            {
+                "value": {
+                    "config": {
+                        "required": 1,
+                        "stack": {
+                            "count": 1,
+                            "id": "the_vault:inscription",
+                            "nbt": "{pool:\"the_vault:companion_rush\", data:{color:7012096,model:24}, display:{Name:'{\"text\":\"Companion Rush Inscription\",\"color\":\"#F09E00\"}' }}"
+                        },
+                        "cost": {
+                            "min": 140,
+                            "max": 360,
+                            "type": "uniform"
+                        },
+                        "id": "the_vault:inscription_horderush",
+                        "repeatable": true
+                    },
+                    "type": "item"
+                },
+                "weight": 200.0
+            }
+        ]
+    },
+    "inscription": {
+        "item": "the_vault:inscription",
+        "nbt": "{data:{entries:[{color:15769088,count:1,pool:\"the_vault:vault/rooms/challenge/horderush\"}],model:24,size:10}}"
+    }
+}

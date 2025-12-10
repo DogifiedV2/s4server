@@ -1,0 +1,1535 @@
+{
+    "shopItems": [
+        {
+            "itemId": "vhsmp:revive_scroll",
+            "itemName": "Revive Scroll",
+            "cost": {
+                "type": "static",
+                "cost": 15
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "revive_scroll",
+            "icon": "vhsmp:revive_scroll",
+            "category": "Scrolls"
+        },
+        {
+            "itemId": "vhsmp:reroll_scroll",
+            "itemName": "Reroll Scroll",
+            "cost": {
+                "type": "static",
+                "cost": 25
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "reroll_scroll",
+            "icon": "vhsmp:reroll_scroll",
+            "category": "Scrolls"
+        },
+        {
+            "itemId": "vhsmp:gear_pack",
+            "itemName": "Gear Pack",
+            "cost": {
+                "type": "static",
+                "cost": 25
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "gear_pack",
+            "icon": "vhsmp:gear_pack",
+            "category": "Packages"
+        },
+        {
+            "itemId": "vhsmp:sell_modifiers",
+            "itemName": "Modifier Sell Pack",
+            "cost": {
+                "type": "static",
+                "cost": 25
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "sell_modifiers",
+            "icon": "vhsmp:sell_modifiers",
+            "category": "Packages"
+        },
+        {
+            "itemId": "vhsmp:sell_spells",
+            "itemName": "Spell Sell Pack",
+            "cost": {
+                "type": "static",
+                "cost": 25
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "sell_spells",
+            "icon": "vhsmp:sell_spells",
+            "category": "Packages"
+        },
+        {
+            "itemId": "vhsmp:blue_particles",
+            "itemName": "Blue Particles",
+            "cost": {
+                "cost": 75,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "particles",
+            "icon": "vhsmp:blue_particles",
+            "particleColour": "#0000FF",
+            "particleChance": 0.3,
+            "category": "Cosmetics/Particles"
+        },
+        {
+            "itemId": "vhsmp:red_particles",
+            "itemName": "Red Particles",
+            "cost": {
+                "cost": 75,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "particles",
+            "icon": "vhsmp:red_particles",
+            "particleColour": "#FF0000",
+            "particleChance": 0.3,
+            "category": "Cosmetics/Particles"
+        },
+        {
+            "itemId": "vhsmp:green_particles",
+            "itemName": "Green Particles",
+            "cost": {
+                "cost": 75,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "particles",
+            "icon": "vhsmp:green_particles",
+            "particleColour": "#00FF00",
+            "particleChance": 0.3,
+            "category": "Cosmetics/Particles"
+        },
+        {
+            "itemId": "vhsmp:lime_particles",
+            "itemName": "Lime Particles",
+            "cost": {
+                "cost": 75,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "particles",
+            "icon": "vhsmp:lime_particles",
+            "particleColour": "#00FFA5",
+            "particleChance": 0.3,
+            "category": "Cosmetics/Particles"
+        },
+        {
+            "itemId": "vhsmp:orange_particles",
+            "itemName": "Orange Particles",
+            "cost": {
+                "cost": 75,
+                "type": "static"
+            },
+            "type": "particles",
+            "icon": "vhsmp:orange_particles",
+            "particleColour": "#FFA500",
+            "particleChance": 0.3,
+            "category": "Cosmetics/Particles"
+        },
+        {
+            "itemId": "vhsmp:pink_particles",
+            "itemName": "Pink Particles",
+            "cost": {
+                "cost": 75,
+                "type": "static"
+            },
+            "type": "particles",
+            "icon": "vhsmp:pink_particles",
+            "particleColour": "#FFC0CB",
+            "particleChance": 0.3,
+            "category": "Cosmetics/Particles"
+        },
+        {
+            "itemId": "vhsmp:purple_particles",
+            "itemName": "Purple Particles",
+            "cost": {
+                "cost": 75,
+                "type": "static"
+            },
+            "type": "particles",
+            "icon": "vhsmp:purple_particles",
+            "particleColour": "#800080",
+            "particleChance": 0.3,
+            "category": "Cosmetics/Particles"
+        },
+        {
+            "itemId": "vhsmp:rainbow_particles",
+            "itemName": "Rainbow Particles",
+            "cost": {
+                "cost": 150,
+                "type": "static"
+            },
+            "type": "particles",
+            "icon": "vhsmp:rainbow_particles",
+            "particleColour": "#FF00FF",
+            "particleChance": 0.3,
+            "category": "Cosmetics/Particles"
+        },
+        {
+            "itemId": "vhsmp:turquoise_particles",
+            "itemName": "Turquoise Particles",
+            "cost": {
+                "cost": 75,
+                "type": "static"
+            },
+            "type": "particles",
+            "icon": "vhsmp:turquoise_particles",
+            "particleColour": "#40E0D0",
+            "particleChance": 0.3,
+            "category": "Cosmetics/Particles"
+        },
+        {
+            "itemId": "vhsmp:yellow_particles",
+            "itemName": "Yellow Particles",
+            "cost": {
+                "cost": 75,
+                "type": "static"
+            },
+            "type": "particles",
+            "icon": "vhsmp:yellow_particles",
+            "particleColour": "#FFFF00",
+            "particleChance": 0.3,
+            "category": "Cosmetics/Particles"
+        },
+        {
+            "itemId": "vhsmp:blue_name_colour",
+            "itemName": "Blue Name Colour",
+            "cost": {
+                "cost": 50,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "name_colour",
+            "icon": "vhsmp:name_colour/blue",
+            "nameColour": "#0000FF",
+            "category": "Cosmetics/Name Colours"
+        },
+        {
+            "itemId": "vhsmp:red_name_colour",
+            "itemName": "Red Name Colour",
+            "cost": {
+                "cost": 50,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "name_colour",
+            "icon": "vhsmp:name_colour/red",
+            "nameColour": "#FF0000",
+            "category": "Cosmetics/Name Colours"
+        },
+        {
+            "itemId": "vhsmp:green_name_colour",
+            "itemName": "Green Name Colour",
+            "cost": {
+                "cost": 50,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "name_colour",
+            "icon": "vhsmp:name_colour/green",
+            "nameColour": "#00FF00",
+            "category": "Cosmetics/Name Colours"
+        },
+        {
+            "itemId": "vhsmp:lime_name_colour",
+            "itemName": "Lime Name Colour",
+            "cost": {
+                "cost": 50,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "name_colour",
+            "icon": "vhsmp:name_colour/lime",
+            "nameColour": "#00FFA5",
+            "category": "Cosmetics/Name Colours"
+        },
+        {
+            "itemId": "vhsmp:orange_name_colour",
+            "itemName": "Orange Name Colour",
+            "cost": {
+                "cost": 50,
+                "type": "static"
+            },
+            "type": "name_colour",
+            "icon": "vhsmp:name_colour/orange",
+            "nameColour": "#FFA500",
+            "category": "Cosmetics/Name Colours"
+        },
+        {
+            "itemId": "vhsmp:pink_name_colour",
+            "itemName": "Pink Name Colour",
+            "cost": {
+                "cost": 50,
+                "type": "static"
+            },
+            "type": "name_colour",
+            "icon": "vhsmp:name_colour/pink",
+            "nameColour": "#FFC0CB",
+            "category": "Cosmetics/Name Colours"
+        },
+        {
+            "itemId": "vhsmp:purple_name_colour",
+            "itemName": "Purple Name Colour",
+            "cost": {
+                "cost": 50,
+                "type": "static"
+            },
+            "type": "name_colour",
+            "icon": "vhsmp:name_colour/purple",
+            "nameColour": "#800080",
+            "category": "Cosmetics/Name Colours"
+        },
+        {
+            "itemId": "vhsmp:turquoise_name_colour",
+            "itemName": "Turquoise Name Colour",
+            "cost": {
+                "cost": 50,
+                "type": "static"
+            },
+            "type": "name_colour",
+            "icon": "vhsmp:name_colour/turquoise",
+            "nameColour": "#40E0D0",
+            "category": "Cosmetics/Name Colours"
+        },
+        {
+            "itemId": "vhsmp:yellow_name_colour",
+            "itemName": "Yellow Name Colour",
+            "cost": {
+                "cost": 50,
+                "type": "static"
+            },
+            "type": "name_colour",
+            "icon": "vhsmp:name_colour/yellow",
+            "nameColour": "#FFFF00",
+            "category": "Cosmetics/Name Colours"
+        },
+        {
+            "itemId": "vhsmp:allay_portrait_frame",
+            "itemName": "Portrait Frame: Allay",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/allay",
+            "icon": "vhsmp:gui/portraitframe/allay",
+            "category": "Cosmetics/Portrait Frames"
+        },
+        {
+            "itemId": "vhsmp:amethyst_portrait_frame",
+            "itemName": "Portrait Frame: Amethyst",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/amethyst",
+            "icon": "vhsmp:gui/portraitframe/amethyst",
+            "category": "Cosmetics/Portrait Frames"
+        },
+        {
+            "itemId": "vhsmp:bamboo_portrait_frame",
+            "itemName": "Portrait Frame: Bamboo",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/bamboo",
+            "icon": "vhsmp:gui/portraitframe/bamboo",
+            "category": "Cosmetics/Portrait Frames"
+        },
+        {
+            "itemId": "vhsmp:bundle_portrait_frame",
+            "itemName": "Portrait Frame: Bundle",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/bundle",
+            "icon": "vhsmp:gui/portraitframe/bundle",
+            "category": "Cosmetics/Portrait Frames"
+        },
+        {
+            "itemId": "vhsmp:cake_portrait_frame",
+            "itemName": "Portrait Frame: Cake",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/cake",
+            "icon": "vhsmp:gui/portraitframe/cake",
+            "category": "Cosmetics/Portrait Frames"
+        },
+        {
+            "itemId": "vhsmp:cat_portrait_frame",
+            "itemName": "Portrait Frame: Cat",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/cat",
+            "icon": "vhsmp:gui/portraitframe/cat",
+            "category": "Cosmetics/Portrait Frames"
+        },
+        {
+            "itemId": "vhsmp:chain_portrait_frame",
+            "itemName": "Portrait Frame: Chain",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/chain",
+            "icon": "vhsmp:gui/portraitframe/chain",
+            "category": "Cosmetics/Portrait Frames"
+        },
+        {
+            "itemId": "vhsmp:cherry_leaves_portrait_frame",
+            "itemName": "Portrait Frame: Cherry Leaves",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/cherry_leaves",
+            "icon": "vhsmp:gui/portraitframe/cherry_leaves",
+            "category": "Cosmetics/Portrait Frames"
+        },
+        {
+            "itemId": "vhsmp:copper_portrait_frame",
+            "itemName": "Portrait Frame: Copper",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/copper",
+            "icon": "vhsmp:gui/portraitframe/copper",
+            "category": "Cosmetics/Portrait Frames"
+        },
+        {
+            "itemId": "vhsmp:frog_portrait_frame",
+            "itemName": "Portrait Frame: Frog",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/frog",
+            "icon": "vhsmp:gui/portraitframe/frog",
+            "category": "Cosmetics/Portrait Frames"
+        },
+        {
+            "itemId": "vhsmp:glass_portrait_frame",
+            "itemName": "Portrait Frame: Glass",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/glass",
+            "icon": "vhsmp:gui/portraitframe/glass",
+            "category": "Cosmetics/Portrait Frames"
+        },
+        {
+            "itemId": "vhsmp:gui_portrait_frame",
+            "itemName": "Portrait Frame: GUI",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/gui",
+            "icon": "vhsmp:gui/portraitframe/gui",
+            "category": "Cosmetics/Portrait Frames"
+        },
+        {
+            "itemId": "vhsmp:item_frame_portrait_frame",
+            "itemName": "Portrait Frame: Item Frame",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/item_frame",
+            "icon": "vhsmp:gui/portraitframe/item_frame",
+            "category": "Cosmetics/Portrait Frames"
+        },
+        {
+            "itemId": "vhsmp:pig_portrait_frame",
+            "itemName": "Portrait Frame: Pig",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/pig",
+            "icon": "vhsmp:gui/portraitframe/pig",
+            "category": "Cosmetics/Portrait Frames"
+        },
+        {
+            "itemId": "vhsmp:redstone_dust_portrait_frame",
+            "itemName": "Portrait Frame: Redstone Dust",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/redstone_dust",
+            "icon": "vhsmp:gui/portraitframe/redstone_dust",
+            "category": "Cosmetics/Portrait Frames"
+        },
+        {
+            "itemId": "vhsmp:sculk_portrait_frame",
+            "itemName": "Portrait Frame: Sculk",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/sculk",
+            "icon": "vhsmp:gui/portraitframe/sculk",
+            "category": "Cosmetics/Portrait Frames"
+        },
+        {
+            "itemId": "vhsmp:craftenstein",
+            "itemName": "Portrait Frame: Craftenstein",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/craftenstein",
+            "icon": "vhsmp:gui/portraitframe/craftenstein",
+            "category": "Halloween",
+            "tags": [ "Halloween" ],
+            "canPurchase": false
+        },
+        {
+            "itemId": "vhsmp:golden_pumpkin_portrait_frame",
+            "itemName": "Portrait Frame: Golden Pumpkin",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/golden_pumpkin",
+            "icon": "vhsmp:gui/portraitframe/golden_pumpkin",
+            "category": "Halloween",
+            "tags": [ "Halloween" ],
+            "canPurchase": false
+        },
+        {
+            "itemId": "vhsmp:mummy_portrait_frame",
+            "itemName": "Portrait Frame: Mummy",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/mummy",
+            "icon": "vhsmp:gui/portraitframe/mummy",
+            "category": "Halloween",
+            "tags": [ "Halloween" ],
+            "canPurchase": false
+        },
+        {
+            "itemId": "vhsmp:pumpkin_portrait_frame",
+            "itemName": "Portrait Frame: Pumpkin",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/pumpkin",
+            "icon": "vhsmp:gui/portraitframe/pumpkin",
+            "category": "Halloween",
+            "tags": [ "Halloween" ],
+            "canPurchase": false
+        },
+        {
+            "itemId": "vhsmp:spider_portrait_frame",
+            "itemName": "Portrait Frame: Spider",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/spider1",
+            "icon": "vhsmp:gui/portraitframe/spider1",
+            "category": "Halloween",
+            "tags": [ "Halloween" ],
+            "canPurchase": false
+        },
+        {
+            "itemId": "vhsmp:tombstone_portrait_frame",
+            "itemName": "Portrait Frame: Tombstone",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/tombstone",
+            "icon": "vhsmp:gui/portraitframe/tombstone",
+            "category": "Halloween",
+            "tags": [ "Halloween" ],
+            "canPurchase": false
+        },
+        {
+            "itemId": "vhsmp:christmas_peppermint_mint_portrait_frame",
+            "itemName": "Portrait Frame: Christmas Peppermint Mint",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/peppermint_mint",
+            "icon": "vhsmp:gui/portraitframe/peppermint_mint",
+            "category": "Christmas",
+            "tags": [ "Christmas" ],
+            "canPurchase": true
+        },
+        {
+            "itemId": "vhsmp:christmas_peppermint_red_portrait_frame",
+            "itemName": "Portrait Frame: Christmas Peppermint Red",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/peppermint_red",
+            "icon": "vhsmp:gui/portraitframe/peppermint_red",
+            "category": "Christmas",
+            "tags": [ "Christmas" ],
+            "canPurchase": true
+        },
+        {
+            "itemId": "vhsmp:christmas_snowy_wreath_portrait_frame",
+            "itemName": "Portrait Frame: Christmas Snowy Wreath",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/snowy_wreath",
+            "icon": "vhsmp:gui/portraitframe/snowy_wreath",
+            "category": "Christmas",
+            "tags": [ "Christmas" ],
+            "canPurchase": true
+        },
+        {
+            "itemId": "vhsmp:christmas_string_light_portrait_frame",
+            "itemName": "Portrait Frame: Christmas String Light",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/string_light",
+            "icon": "vhsmp:gui/portraitframe/string_light",
+            "category": "Christmas",
+            "tags": [ "Christmas" ],
+            "canPurchase": true
+        },
+        {
+            "itemId": "vhsmp:christmas_wreath_portrait_frame",
+            "itemName": "Portrait Frame: Christmas Wreath",
+            "cost": {
+                "cost": 25,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "portrait_frame",
+            "portraitFrameLocation": "vhsmp:gui/portraitframe/wreath",
+            "icon": "vhsmp:gui/portraitframe/wreath",
+            "category": "Christmas",
+            "tags": [ "Christmas" ],
+            "canPurchase": true
+        },
+
+        {
+            "itemId": "vhsmp:season_one_background",
+            "itemName": "Season One Background",
+            "cost": {
+                "cost": 1,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "background_colour",
+            "icon": "vhsmp:season_one_background",
+            "texture": "vhsmp:gui/backgrounds/season_one",
+            "category": "Cosmetics/Backgrounds"
+        },
+        {
+            "itemId": "vhsmp:bricks_background",
+            "itemName": "Bricks Background",
+            "cost": {
+                "cost": 35,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "background_colour",
+            "icon": "vhsmp:bricks_background",
+            "texture": "vhsmp:gui/backgrounds/bricks",
+            "category": "Cosmetics/Backgrounds"
+        },
+        {
+            "itemId": "vhsmp:cave_chest_background",
+            "itemName": "Cave Chest Background",
+            "cost": {
+                "cost": 35,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "background_colour",
+            "icon": "vhsmp:cave_chest_background",
+            "texture": "vhsmp:gui/backgrounds/cave_chest",
+            "category": "Cosmetics/Backgrounds"
+        },
+        {
+            "itemId": "vhsmp:cyan_blast_background",
+            "itemName": "Cyan Blast Background",
+            "cost": {
+                "cost": 35,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "background_colour",
+            "icon": "vhsmp:cyan_blast_background",
+            "texture": "vhsmp:gui/backgrounds/cyan_blast",
+            "category": "Cosmetics/Backgrounds"
+        },
+        {
+            "itemId": "vhsmp:dark_rusty_background",
+            "itemName": "Dark Rusty Background",
+            "cost": {
+                "cost": 35,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "background_colour",
+            "icon": "vhsmp:dark_rusty_background",
+            "texture": "vhsmp:gui/backgrounds/dark_rusty",
+            "category": "Cosmetics/Backgrounds"
+        },
+        {
+            "itemId": "vhsmp:jungle_background",
+            "itemName": "Jungle Background",
+            "cost": {
+                "cost": 35,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "background_colour",
+            "icon": "vhsmp:jungle_background",
+            "texture": "vhsmp:gui/backgrounds/jungle",
+            "category": "Cosmetics/Backgrounds"
+        },
+        {
+            "itemId": "vhsmp:lime_heart_background",
+            "itemName": "Lime Heart Background",
+            "cost": {
+                "cost": 35,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "background_colour",
+            "icon": "vhsmp:lime_heart_background",
+            "texture": "vhsmp:gui/backgrounds/lime_heart",
+            "category": "Cosmetics/Backgrounds"
+        },
+        {
+            "itemId": "vhsmp:pink_heart_background",
+            "itemName": "Pink Heart Background",
+            "cost": {
+                "cost": 35,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "background_colour",
+            "icon": "vhsmp:pink_heart_background",
+            "texture": "vhsmp:gui/backgrounds/pink_heart",
+            "category": "Cosmetics/Backgrounds"
+        },
+        {
+            "itemId": "vhsmp:portal_background",
+            "itemName": "Portal Background",
+            "cost": {
+                "cost": 35,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "background_colour",
+            "icon": "vhsmp:portal_background",
+            "texture": "vhsmp:gui/backgrounds/portal",
+            "category": "Cosmetics/Backgrounds"
+        },
+        {
+            "itemId": "vhsmp:scroll_background",
+            "itemName": "Scroll Background",
+            "cost": {
+                "cost": 35,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "background_colour",
+            "icon": "vhsmp:scroll_background",
+            "texture": "vhsmp:gui/backgrounds/scroll_standing",
+            "category": "Cosmetics/Backgrounds"
+        },
+        {
+            "itemId": "vhsmp:wooden_board_background",
+            "itemName": "Wooden Board Background",
+            "cost": {
+                "cost": 35,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "background_colour",
+            "icon": "vhsmp:wooden_board_background",
+            "texture": "vhsmp:gui/backgrounds/wooden_board",
+            "category": "Cosmetics/Backgrounds"
+        },
+        {
+            "itemId": "vhsmp:halloween_background",
+            "itemName": "Halloween Background",
+            "cost": {
+                "cost": 35,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "background_colour",
+            "icon": "vhsmp:halloween_background",
+            "texture": "vhsmp:gui/backgrounds/halloween",
+            "category": "Cosmetics/Backgrounds",
+            "tags": [ "Halloween" ],
+            "canPurchase": false
+        },
+        {
+            "itemId": "vhsmp:christmas_background_one",
+            "itemName": "Christmas Background One",
+            "cost": {
+                "cost": 35,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "background_colour",
+            "icon": "vhsmp:christmas_background_one",
+            "texture": "vhsmp:gui/backgrounds/christmas_one",
+            "category": "Cosmetics/Backgrounds",
+            "tags": [ "Christmas" ],
+            "canPurchase": true
+        },
+        {
+            "itemId": "vhsmp:christmas_background_two",
+            "itemName": "Christmas Background Two",
+            "cost": {
+                "cost": 35,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "background_colour",
+            "icon": "vhsmp:christmas_background_two",
+            "texture": "vhsmp:gui/backgrounds/christmas_two",
+            "category": "Cosmetics/Backgrounds",
+            "tags": [ "Christmas" ],
+            "canPurchase": true
+        },
+        {
+            "itemId": "vhsmp:christmas_background_three",
+            "itemName": "Christmas Background Three",
+            "cost": {
+                "cost": 35,
+                "type": "static"
+            },
+            "requiredMinimumLevel": {
+                "level": 1,
+                "type": "static"
+            },
+            "type": "background_colour",
+            "icon": "vhsmp:christmas_background_three",
+            "texture": "vhsmp:gui/backgrounds/christmas_three",
+            "category": "Cosmetics/Backgrounds",
+            "tags": [ "Christmas" ],
+            "canPurchase": true
+        },
+
+
+
+
+
+        {
+            "itemId": "vhsmp:living_modifier",
+            "itemName": "Modifier: Bonus Living",
+            "cost": {
+                "type": "dynamic",
+                "base": 100,
+                "increase": 20
+            },
+            "requiredMinimumLevel": {
+                "type": "dynamic",
+                "base": 15,
+                "increase": 5
+            },
+            "type": "modifier",
+            "icon": "vhsmp:living_modifier",
+            "modifierId": "the_vault:living",
+            "category": "Modifiers",
+            "tags":  [ "Modifiers" ]
+        },
+        {
+            "itemId": "vhsmp:ornate_modifier",
+            "itemName": "Modifier: Bonus Ornate",
+            "cost": {
+                "type": "dynamic",
+                "base": 100,
+                "increase": 20
+            },
+            "requiredMinimumLevel": {
+                "type": "dynamic",
+                "base": 15,
+                "increase": 5
+            },
+            "type": "modifier",
+            "icon": "vhsmp:ornate_modifier",
+            "modifierId": "the_vault:ornate",
+            "category": "Modifiers",
+            "tags":  [ "Modifiers" ]
+        },
+        {
+            "itemId": "vhsmp:gilded_modifier",
+            "itemName": "Modifier: Bonus Gilded",
+            "cost": {
+                "type": "dynamic",
+                "base": 100,
+                "increase": 20
+            },
+            "requiredMinimumLevel": {
+                "type": "dynamic",
+                "base": 15,
+                "increase": 5
+            },
+            "type": "modifier",
+            "icon": "vhsmp:gilded_modifier",
+            "modifierId": "the_vault:gilded",
+            "category": "Modifiers",
+            "tags":  [ "Modifiers" ]
+        },
+        {
+            "itemId": "vhsmp:wooden_modifier",
+            "itemName": "Modifier: Bonus Wooden",
+            "cost": {
+                "type": "dynamic",
+                "base": 100,
+                "increase": 20
+            },
+            "requiredMinimumLevel": {
+                "type": "dynamic",
+                "base": 15,
+                "increase": 5
+            },
+            "type": "modifier",
+            "icon": "vhsmp:wooden_modifier",
+            "modifierId": "the_vault:wooden_bonus",
+            "category": "Modifiers",
+            "tags":  [ "Modifiers" ]
+        },
+        {
+            "itemId": "vhsmp:extended_modifier",
+            "itemName": "Modifier: Extended",
+            "cost": {
+                "type": "dynamic",
+                "base": 25,
+                "increase": 10
+            },
+            "requiredMinimumLevel": {
+                "type": "dynamic",
+                "base": 15,
+                "increase": 5
+            },
+            "type": "modifier",
+            "icon": "vhsmp:extended_modifier",
+            "modifierId": "the_vault:extended",
+            "category": "Modifiers",
+            "tags":  [ "Modifiers" ]
+        },
+        {
+            "itemId": "vhsmp:plentiful_modifier",
+            "itemName": "Modifier: Plentiful",
+            "cost": {
+                "type": "dynamic",
+                "base": 25,
+                "increase": 10
+            },
+            "requiredMinimumLevel": {
+                "type": "dynamic",
+                "base": 15,
+                "increase": 5
+            },
+            "type": "modifier",
+            "icon": "vhsmp:plentiful_modifier",
+            "modifierId": "the_vault:plentiful",
+            "category": "Modifiers",
+            "tags":  [ "Modifiers" ]
+        },
+        {
+            "itemId": "vhsmp:wealthy_modifier",
+            "itemName": "Modifier: Bonus Coins",
+            "cost": {
+                "type": "dynamic",
+                "base": 100,
+                "increase": 20
+            },
+            "requiredMinimumLevel": {
+                "type": "dynamic",
+                "base": 15,
+                "increase": 5
+            },
+            "type": "modifier",
+            "icon": "vhsmp:wealthy_modifier",
+            "modifierId": "the_vault:coin_pile",
+            "category": "Modifiers",
+            "tags":  [ "Modifiers" ]
+        },
+        {
+            "itemId": "vhsmp:cascade_coins",
+            "itemName": "Modifier: Wealthy Coins",
+            "cost": {
+                "type": "dynamic",
+                "base": 100,
+                "increase": 20
+            },
+            "requiredMinimumLevel": {
+                "type": "dynamic",
+                "base": 15,
+                "increase": 5
+            },
+            "type": "modifier",
+            "icon": "vhsmp:wealthy_modifier",
+            "modifierId": "the_vault:coin_cascade",
+            "category": "Modifiers",
+            "tags":  [ "Modifiers" ]
+        },
+        {
+            "itemId": "vhsmp:gilded_cascade",
+            "itemName": "Modifier: Gilded",
+            "cost": {
+                "type": "dynamic",
+                "base": 25,
+                "increase": 10
+            },
+            "requiredMinimumLevel": {
+                "type": "dynamic",
+                "base": 15,
+                "increase": 5
+            },
+            "type": "modifier",
+            "icon": "vhsmp:gilded_cascade",
+            "modifierId": "the_vault:gilded_cascade",
+            "category": "Modifiers",
+            "tags":  [ "Modifiers" ]
+        },
+        {
+            "itemId": "vhsmp:living_cascade",
+            "itemName": "Modifier: Living",
+            "cost": {
+                "type": "dynamic",
+                "base": 25,
+                "increase": 10
+            },
+            "requiredMinimumLevel": {
+                "type": "dynamic",
+                "base": 15,
+                "increase": 5
+            },
+            "type": "modifier",
+            "icon": "vhsmp:living_cascade",
+            "modifierId": "the_vault:living_cascade",
+            "category": "Modifiers",
+            "tags":  [ "Modifiers" ]
+        },
+        {
+            "itemId": "vhsmp:ornate_cascade",
+            "itemName": "Modifier: Ornate",
+            "cost": {
+                "type": "dynamic",
+                "base": 25,
+                "increase": 10
+            },
+            "requiredMinimumLevel": {
+                "type": "dynamic",
+                "base": 15,
+                "increase": 5
+            },
+            "type": "modifier",
+            "icon": "vhsmp:ornate_cascade",
+            "modifierId": "the_vault:ornate_cascade",
+            "category": "Modifiers",
+            "tags":  [ "Modifiers" ]
+        },
+        {
+            "itemId": "vhsmp:wooden_cascade",
+            "itemName": "Modifier: Wooden",
+            "cost": {
+                "type": "dynamic",
+                "base": 25,
+                "increase": 10
+            },
+            "requiredMinimumLevel": {
+                "type": "dynamic",
+                "base": 15,
+                "increase": 5
+            },
+            "type": "modifier",
+            "icon": "vhsmp:wooden_cascade",
+            "modifierId": "the_vault:wooden_cascade",
+            "category": "Modifiers",
+            "tags":  [ "Modifiers" ]
+        },
+        {
+            "itemId": "vhsmp:phoenix",
+            "itemName": "Modifier: Phoenix",
+            "cost": {
+                "type": "dynamic",
+                "base": 100,
+                "increase": 20
+            },
+            "requiredMinimumLevel": {
+                "type": "dynamic",
+                "base": 15,
+                "increase": 5
+            },
+            "type": "modifier",
+            "icon": "vhsmp:phoenix",
+            "modifierId": "the_vault:phoenix",
+            "category": "Modifiers",
+            "tags":  [ "Modifiers" ]
+        },
+        {
+            "itemId": "vhsmp:pandora",
+            "itemName": "Modifier: Pandora's Box",
+            "cost": {
+                "type": "dynamic",
+                "base": 100,
+                "increase": 20
+            },
+            "requiredMinimumLevel": {
+                "type": "dynamic",
+                "base": 15,
+                "increase": 5
+            },
+            "type": "modifier",
+            "icon": "vhsmp:pandora",
+            "modifierId": "the_vault:pandoras_box",
+            "category": "Modifiers",
+            "tags":  [ "Modifiers" ]
+        },
+        {
+            "itemId": "vhsmp:accustomed",
+            "itemName": "Modifier: Accustomed",
+            "cost": {
+                "type": "dynamic",
+                "base": 50,
+                "increase": 10
+            },
+            "requiredMinimumLevel": {
+                "type": "dynamic",
+                "base": 15,
+                "increase": 5
+            },
+            "type": "modifier",
+            "icon": "vhsmp:accustomed",
+            "modifierId": "the_vault:xp_gain",
+            "category": "Modifiers",
+            "tags":  [ "Modifiers" ]
+        },
+        {
+            "itemId": "vhsmp:buffed",
+            "itemName": "Modifier: Buffed",
+            "cost": {
+                "type": "dynamic",
+                "base": 50,
+                "increase": 10
+            },
+            "requiredMinimumLevel": {
+                "type": "dynamic",
+                "base": 15,
+                "increase": 5
+            },
+            "type": "modifier",
+            "icon": "vhsmp:buffed",
+            "modifierId": "the_vault:buffed",
+            "category": "Modifiers",
+            "tags":  [ "Modifiers" ]
+        },
+
+
+        {
+            "itemId": "vhsmp:heal_spell",
+            "itemName": "Spell: Heal",
+            "cost": {
+                "type": "dynamic",
+                "base": 30,
+                "increase": 10
+            },
+            "requiredMinimumLevel": {
+                "type": "dynamic",
+                "base": 5,
+                "increase": 3
+            },
+            "type": "spell",
+            "icon": "vhsmp:spell/heal",
+            "spellId": "vhsmp:heal",
+            "category": "Spells",
+            "tags":  [ "def_spell" ]
+        },
+        {
+            "itemId": "vhsmp:mana_restore",
+            "itemName": "Spell: Mana Restore",
+            "cost": {
+                "type": "dynamic",
+                "base": 30,
+                "increase": 10
+            },
+            "requiredMinimumLevel": {
+                "type": "dynamic",
+                "base": 5,
+                "increase": 3
+            },
+            "type": "spell",
+            "icon": "vhsmp:spell/mana_restore",
+            "spellId": "vhsmp:mana_restore",
+            "category": "Spells",
+            "tags":  [ "def_spell" ]
+        },
+        {
+            "itemId": "vhsmp:absorption_heart",
+            "itemName": "Spell: Absorption Heart",
+            "cost": {
+                "type": "dynamic",
+                "base": 50,
+                "increase": 10
+            },
+            "requiredMinimumLevel": {
+                "type": "dynamic",
+                "base": 5,
+                "increase": 3
+            },
+            "type": "spell",
+            "icon": "vhsmp:spell/absorp",
+            "spellId": "vhsmp:absorption_heart",
+            "category": "Spells",
+            "tags":  [ "def_spell" ]
+        },
+        {
+            "itemId": "vhsmp:speed",
+            "itemName": "Spell: Speed Spell",
+            "cost": {
+                "type": "dynamic",
+                "base": 30,
+                "increase": 10
+            },
+            "requiredMinimumLevel": {
+                "type": "dynamic",
+                "base": 5,
+                "increase": 3
+            },
+            "type": "spell",
+            "icon": "vhsmp:spell/speed",
+            "spellId": "vhsmp:speed",
+            "category": "Spells",
+            "tags":  [ "def_spell" ]
+        },
+        {
+            "itemId": "vhsmp:rejuvenation",
+            "itemName": "Spell: Rejuvenation Totem",
+            "cost": {
+                "type": "dynamic",
+                "base": 30,
+                "increase": 10
+            },
+            "requiredMinimumLevel": {
+                "type": "dynamic",
+                "base": 5,
+                "increase": 3
+            },
+            "type": "spell",
+            "icon": "vhsmp:spell/rejuvenation",
+            "spellId": "vhsmp:rejuvenation",
+            "category": "Spells",
+            "tags":  [ "def_spell" ]
+        },
+        {
+            "itemId": "vhsmp:spirit",
+            "itemName": "Spell: Spirit Totem",
+            "cost": {
+                "type": "dynamic",
+                "base": 30,
+                "increase": 10
+            },
+            "requiredMinimumLevel": {
+                "type": "dynamic",
+                "base": 5,
+                "increase": 3
+            },
+            "type": "spell",
+            "icon": "vhsmp:spell/spirit",
+            "spellId": "vhsmp:spirit",
+            "category": "Spells",
+            "tags":  [ "def_spell" ]
+        },
+        {
+            "itemId": "vhsmp:wrath",
+            "itemName": "Spell: Wrath Totem",
+            "cost": {
+                "type": "dynamic",
+                "base": 30,
+                "increase": 10
+            },
+            "requiredMinimumLevel": {
+                "type": "dynamic",
+                "base": 5,
+                "increase": 3
+            },
+            "type": "spell",
+            "icon": "vhsmp:spell/wrath",
+            "spellId": "vhsmp:wrath",
+            "category": "Spells",
+            "tags":  [ "def_spell" ]
+        },
+        {
+            "itemId": "vhsmp:mana_barrier",
+            "itemName": "Spell: Mana Barrier",
+            "cost": {
+                "type": "dynamic",
+                "base": 30,
+                "increase": 10
+            },
+            "requiredMinimumLevel": {
+                "type": "dynamic",
+                "base": 5,
+                "increase": 3
+            },
+            "type": "spell",
+            "icon": "vhsmp:spell/mana_barrier",
+            "spellId": "vhsmp:mana_barrier",
+            "category": "Spells",
+            "tags":  [ "def_spell" ]
+        },
+
+        {
+            "itemId": "vhsmp:gemstone_shop_secret",
+            "itemName": "Gemstone Badge!",
+            "cost": {
+                "type": "static",
+                "cost": 420
+            },
+            "requiredMinimumLevel": {
+                "type": "static",
+                "level": 1
+            },
+            "type": "add_badge",
+            "icon": "vhsmp:gemstone_saver",
+            "badgeId": "vhsmp:gemstone_saver",
+            "category": "Special",
+            "tags":  [ "special_gemstones" ]
+        }
+
+
+    ]
+}

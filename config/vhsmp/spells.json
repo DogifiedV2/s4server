@@ -1,0 +1,49 @@
+{
+    "spells": [
+        {
+            "id": "vhsmp:heal",
+            "type": "heal",
+            "baseHp": 1
+        },
+        {
+            "id": "vhsmp:mana_restore",
+            "type": "mana_restore",
+            "baseMana": 2
+        },
+        {
+            "id": "vhsmp:absorption_heart",
+            "type": "absorption_heart",
+            "baseAbsorption": 1,
+            "baseDuration": 0
+        },
+        {
+            "id": "vhsmp:speed",
+            "type": "speed",
+            "baseDuration": 40,
+            "baseAmplifier": 2
+        },
+        {
+            "id": "vhsmp:rejuvenation",
+            "type": "rejuvenation_totem"
+        },
+        {
+            "id": "vhsmp:spirit",
+            "type": "spirit_totem",
+            "manaRegenPercent": 5
+        },
+        {
+            "id": "vhsmp:wrath",
+            "type": "wrath_totem"
+        },
+        {
+            "id": "vhsmp:mana_barrier",
+            "type": "mana_barrier",
+            "radius": 3
+        },
+        {
+            "id": "vhsmp:ultimate_implode",
+            "type": "ultimate_implode",
+            "range": 48
+        }
+    ]
+}
