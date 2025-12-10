@@ -14233,6 +14233,10 @@ file = "mods/pipez-1.18.2-1.1.5.jar"
 hash = "1e0779feeadd9bf79266e3b8734f0ff16ac8ed64b2179ba7c4a5ef67b3712610"
 
 [[files]]
+file = "mods/player_data_sync-1.14.0.jar"
+hash = "f47979ee52a4f4175661863c97bd3e6cffd168662623280d2343476dc2494a5c"
+
+[[files]]
 file = "mods/polymorph-forge-1.18.2-0.50.jar"
 hash = "9ae8862912415b4c35b0b37d71ae67acc56007fdb22024c08348d9a62ff4b903"
 
