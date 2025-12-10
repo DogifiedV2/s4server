@@ -14237,7 +14237,7 @@ file = "mods/polymorph-forge-1.18.2-0.50.jar"
 hash = "9ae8862912415b4c35b0b37d71ae67acc56007fdb22024c08348d9a62ff4b903"
 
 [[files]]
-file = "mods/proxy-compatible-forge-1.1.7(1).jar"
+file = "mods/proxy-compatible-forge-1.1.7.jar"
 hash = "129eff8dde4575d2a92cc56b5648f2e534dc9acf5d2e17f7aafbb951aa660dda"
 
 [[files]]
@@ -14387,6 +14387,10 @@ hash = "26d0e83ed96b6146ae3680132cb2ef77eeb7f70c0abe4172a66926dd01429fd4"
 [[files]]
 file = "mods/weirdinggadget-1.18.1-2.2.11.jar"
 hash = "730cfc3a6f0bea27a42634d248fd351fc791625e6826f7d45a42c8e0d9f5f0dd"
+
+[[files]]
+file = "mods/worldedit-mod-7.2.10.jar"
+hash = "3d7f06f7a208f58e212e8d0dd7cdb0f14e8f0b8a448f8358f872777fb0bfad4d"
 
 [[files]]
 file = "mods/xnet-1.18-4.0.9.jar"
