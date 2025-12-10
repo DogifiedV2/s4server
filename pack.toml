@@ -1,0 +1,13 @@
+name = "Paradise Server"
+author = "Dog"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "b158c38a19642badba659185917ab7c30937ebd79e6e6cf61439d762111b1906"
+
+[versions]
+forge = "40.3.11"
+minecraft = "1.18.2"
