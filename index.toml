@@ -13030,7 +13030,7 @@ hash = "1a92313334f92551ca5d099970667e1c2dc750db702d7120917a82ef4ebfe987"
 
 [[files]]
 file = "config/the_vault/researches.json"
-hash = "946931c3b3c956cb21e695cc6f128e4127cf981beade9ba4aa2c0c0d76f925c8"
+hash = "a1a88fd8326e0c73bd627019503f7ada11a1f1026e681556d9588dcf779e18d4"
 
 [[files]]
 file = "config/the_vault/researches_groups.json"
@@ -13042,7 +13042,7 @@ hash = "af6ed09f5ba0407069b2c5971d9d41693c72982f20d73a42f37589e643ffc4f4"
 
 [[files]]
 file = "config/the_vault/researches_gui_styles.json"
-hash = "096b085627c1e90631e4161e3269608373dc54d7f64cac1a8f4862a467b7c0e2"
+hash = "a2974f8259fddfaab5f14fa3a5509553b11ff5dd1b38f477f4d9433b18220ee6"
 
 [[files]]
 file = "config/the_vault/royale_loot.json"
