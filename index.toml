@@ -1113,6 +1113,34 @@ file = "config/legendarytooltips-common.toml"
 hash = "6b3a0c3378457ee99e01144c6a83a68ab3b40bb322d16aae4e2056fdc06e283a"
 
 [[files]]
+file = "config/lightmanscurrency-common.toml"
+hash = "1df733c40594e70fc5f39eaf799cb73f17fe4112cc423b87ce4c1296e31b6fbe"
+
+[[files]]
+file = "config/lightmanscurrency/ATMData.json"
+hash = "798f00152e1dc2293f834f4fe8aca7741aae0de607e64e0c6c31d54ff74bc171"
+
+[[files]]
+file = "config/lightmanscurrency/MasterCoinList.json"
+hash = "08aab34009a53d905b13232466ff0a9a84bebaa8aa6e0a96f8dca708ba2ab959"
+
+[[files]]
+file = "config/lightmanscurrency/PersistentTraders.json"
+hash = "95e8f6a7f8690592aef9cd84ce5d9b10ccd245ccf8e8e8ed5701c3aff7ca9fb8"
+
+[[files]]
+file = "config/lightmanscurrency/custom_banker_trades.json"
+hash = "6e1be111ba053818a06c7e04998b84642a77139e82ca1677dce7b3a9deef1710"
+
+[[files]]
+file = "config/lightmanscurrency/custom_cashier_trades.json"
+hash = "c6fb805fe21e1765ac297443a3646887800f0a45864d5f8868f7883a4dc95e23"
+
+[[files]]
+file = "config/lightmanscurrency/custom_wandering_trader_trades.json"
+hash = "a422b3346a5b514d183afe2d8915be5ec9a0f489803c5ee505d314c635620797"
+
+[[files]]
 file = "config/lootbeams-client.toml"
 hash = "d1dff1f5fbb0eb4fbd36a5dfc7fa8b9b770e64229583407e2051f5597740bba8"
 
