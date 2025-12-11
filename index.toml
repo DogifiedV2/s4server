@@ -985,6 +985,10 @@ file = "config/industrialforegoing/machine-resource-production.toml"
 hash = "5e2e92c68f7d5af31e4ce6ba41c22852ab639859d05ea2ac1207322a1e54756a"
 
 [[files]]
+file = "config/integrateddynamics-common.toml"
+hash = "609524f7cce133670b127e019c5e8ee94335da0aada2b57c734aad48b3286f34"
+
+[[files]]
 file = "config/inventoryhud-client.toml"
 hash = "c461d9af46867025c5d94c2d94b2c7d5abcee2f650fc5dc5f99a804b192128ac"
 
