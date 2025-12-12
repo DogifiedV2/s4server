@@ -2082,7 +2082,7 @@ hash = "86bf578b90dba383e139e384b8d0f831bc3f9a3d4aa9fed1cdf54b295eccf1f5"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/dungeon/dungeon_mob.json"
-hash = "f55cd899452df067dc5e8a3f01ddd8beffdb087255970291b010226c0fc90e48"
+hash = "62c6c9413c8fde2138bf3dbf6d4072643f555def91cf3afa2067ca32665eccf6"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/dungeon/gilded.json"
@@ -2114,7 +2114,7 @@ hash = "62b1badb2ab426069e7dd27d5b64326a49a3f11a15ed106af2610b68af0c975a"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/dungeon_boss.json"
-hash = "13d50a4a5cf9cc281bef0148aa78cc10a9736e0019a20dff4328accc2d1bdcc9"
+hash = "b407ba2052c290c28f9ea5b25d8277378bed93b0790054d6e8da80016db14e23"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/enigma_chest_0.json"
